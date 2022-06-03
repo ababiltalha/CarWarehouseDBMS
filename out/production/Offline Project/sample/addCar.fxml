@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddCar">
+   <children>
+      <TextField fx:id="regNoText" layoutX="223.0" layoutY="97.0" prefHeight="26.0" prefWidth="210.0" />
+      <TextField fx:id="makeText" layoutX="223.0" layoutY="146.0" prefHeight="26.0" prefWidth="210.0" />
+      <TextField fx:id="modelText" layoutX="223.0" layoutY="197.0" prefHeight="26.0" prefWidth="210.0" />
+      <TextField fx:id="colorsText1" layoutX="223.0" layoutY="248.0" prefHeight="26.0" prefWidth="210.0" />
+      <TextField fx:id="yearText" layoutX="222.0" layoutY="395.0" prefHeight="26.0" prefWidth="210.0" />
+      <TextField fx:id="priceText" layoutX="222.0" layoutY="448.0" prefHeight="26.0" prefWidth="210.0" />
+      <Label layoutX="119.0" layoutY="101.0" text="Registration no." />
+      <Label layoutX="119.0" layoutY="150.0" text="Car Make" />
+      <Label layoutX="119.0" layoutY="201.0" text="Car Model" />
+      <Label layoutX="119.0" layoutY="252.0" text="Color 1" />
+      <Label layoutX="118.0" layoutY="399.0" text="Production Year" />
+      <Label layoutX="118.0" layoutY="452.0" text="Price" />
+      <Button fx:id="addButton" layoutX="496.0" layoutY="510.0" mnemonicParsing="false" onAction="#addAction" text="Add" />
+      <Button fx:id="backButton" layoutX="14.0" layoutY="510.0" mnemonicParsing="false" onAction="#backAction" text="Back" />
+      <Button fx:id="saveButton" layoutX="495.0" layoutY="510.0" mnemonicParsing="false" onAction="#saveAction" text="Save" />
+      <TextField fx:id="colorsText2" layoutX="222.0" layoutY="347.0" prefHeight="26.0" prefWidth="210.0" />
+      <Label layoutX="118.0" layoutY="351.0" text="Color 3" />
+      <TextField fx:id="colorsText3" layoutX="223.0" layoutY="296.0" prefHeight="26.0" prefWidth="210.0" />
+      <Label layoutX="119.0" layoutY="300.0" text="Color 2" />
+      <Label layoutX="242.0" layoutY="40.0" text="Car Details">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
